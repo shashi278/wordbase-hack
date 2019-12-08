@@ -1,0 +1,24 @@
+<html>
+<head>
+    <title>{{title}}</title>
+</head>
+<body>
+    <h2 text-align="center">Wordbase-Hack</h2><br>
+    <p>{{err_msg}}</p><br>
+    <form action = "/solve" method = "post" enctype="multipart/form-data">
+        <h3>Select your color:</h3>
+        <input type="radio" name="color" value="blue" checked>Blue<br>
+        <input type="radio" name="color" value="orange">Orange<br><br>
+
+        <h3>Apply filter:</h3>
+        <input type="checkbox" name="intersection" value="Yes" checked>Only show words
+        with intersection(Takes few more seconds)<br><br>
+
+        <h3>Upload screenshot</h3>
+        <input type="file" name="file" />
+        <input type = "submit" value="Upload">
+    </form>
+    <br><br>
+    <footer>Created by Shashi Ranjan(Watney) <a href="https://www.github.com/shashi278">Github</a> </footer>
+</body>
+</html>

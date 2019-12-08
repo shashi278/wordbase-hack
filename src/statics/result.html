@@ -1,0 +1,48 @@
+<html>
+<head>
+    <title>Result</title>
+</head>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+<body>
+    <h3>Words to play {{filter_info}}</h3><br>
+    <pre>
+        <b>Note:</b>
+            In a character position (x,y):
+                x: Denotes the column number from top(starting from 0)
+                y: Denotes the row number from left(starting from 0)
+    </pre><br>
+    <table>
+        <tr>
+            <th>S.N.</th>
+            <th>Word</th>
+            <th>Position</th>
+        </tr>
+        {%for i in range(0, len)%}
+        <tr>
+            <td>{{i+1}}</td>
+            <td>{{results[i][0]}}</td>
+            <td>{{results[i][1]}}</td>
+        </tr>
+        {%endfor%}
+    </table>
+
+    <br><br>
+    <footer>Created by Shashi Ranjan(Watney) <a href="https://www.github.com/shashi278">Github</a> </footer>
+</body>
+</html>
