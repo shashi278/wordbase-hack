@@ -1,1 +1,1 @@
-COntains images to train model upon
+Contains images to train model upon
