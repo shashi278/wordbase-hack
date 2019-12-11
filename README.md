@@ -1,5 +1,5 @@
 # Wordbase-Hack
-A simple(not really) script to hack into [wordbase](https://play.google.com/store/apps/details?id=com.wordbaseapp) android game.
+A simple(well, kind of) script to hack into [wordbase](https://play.google.com/store/apps/details?id=com.wordbaseapp) android game.
 
 ## How does it work?
 
