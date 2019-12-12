@@ -86,7 +86,7 @@ def neighbors(path, ncols=10, nrows=13):
 
 if __name__=="__main__":
 	t1= time.time()
-	x= solve("12.png", "blue")
+	x= solve("test.jpeg", "blue")
 	print("Execution time: {}".format(time.time()-t1))
 
 	for each in x:
